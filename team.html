@@ -24,10 +24,59 @@
     </style>
 </head>
 <body class="w3-black">
-     <div class="w3-center">
-     <img src="https://cdn.discordapp.com/attachments/1114547490704867388/1148200571346632734/Society_Unites-05.png" alt="Society Unites Sunset Logo" width="100" length="100">
-     </div>
- <h2 class="w3-center"><a href="/index.html"><i class="fa fa-paper-plane"></i> Home</a></h2>
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card" id="myNavbar">
+      <a href="#home">
+          <img src="https://cdn.discordapp.com/attachments/1114547490704867388/1148200571346632734/Society_Unites-05.png" alt="Click me to go home" width="100" length="50">
+      </a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small w3-black">
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+        <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+        <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> DISCORD</a>
+        <a href="/changelog" class="w3-bar-item w3-button"><i class="fa fa-file"></i> CHANGE LOG</a>
+        <a href="/apply" class="w3-bar-item w3-button"><i class="fa fa-balance-scale"></i> APPLY</div>
+        <a href="/appeal" class="w3-bar-item w3-button"><i class="fa fa-gavel"></i> APPEAL</div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">DISCORD</a>
+    <a href="/changelog" onclick="w3_close()" class="w3-bar-item w3-button">CHANGE LOG</a>
+    <a href="/apply.html" onclick="w3_close()" class="w3-bar-item w3-button">APPLY</a>
+    <a href="/appeal.html" onclick="w3_close()" class="w3-bar-item w3-button">APPEAL</a>
+  </nav>
+  <script>
+  var mySidebar = document.getElementById("mySidebar");
+
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+  
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+  </script>
+  
+<!-- Start content section -->
 <div>
     <div><h3 class="w3-padding-16 dr1-su-admin-color w3-center">Administrators</h3></div>
 
