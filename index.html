@@ -93,7 +93,7 @@ body, html {
   <p>This website is not finished! We will let you know in the <a href="https://discord.gg/uy6Z8WN87V">Discord</a> when it is complete.</p>
 </div> 
 <!-- About Section -->
-<div class="w3-container scroll-left" style="padding:128px 16px" id="about">
+<div class="w3-container" style="padding:128px 16px" id="about">
   <h3 class="w3-center">ABOUT THE SERVER</h3>
   <p class="w3-center w3-large">Key features of our company</p>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
@@ -398,19 +398,6 @@ function w3_close() {
     mySidebar.style.display = "none";
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    const container = document.querySelector(".container");
-
-    window.addEventListener("scroll", function () {
-        const scrollPosition = window.scrollY;
-
-        if (scrollPosition > 100) {
-            container.style.transform = "translateX(0)";
-        } else {
-            container.style.transform = "translateX(-100%)";
-        }
-    });
-});
 
 </script>
 
