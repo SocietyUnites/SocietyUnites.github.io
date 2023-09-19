@@ -1,19 +1,24 @@
 /*Society Unites Custom CSS*/
+.dr1-su-creative-t-color {
+    color: rgb(104, 196, 255)
+}
+
+
 .dr1-su-admin-color {
-    color: rgb(204, 255, 102)
+    color: rgb(3, 217, 152)
 }
 .dr1-su-sr-mod-color {
-    color: rgb(255, 153, 102)
+    color: rgb(246, 161, 115)
 
 }
 
 .dr1-su-jr-mod-color {
-    color: rgb(153, 255, 204)
+    color: rgb(153, 255, 214)
 
 }
 
 .dr1-su-helper-color {
-    color:rgb(255, 153, 255)
+    color:rgb(167, 125, 194)
 
 }
 
