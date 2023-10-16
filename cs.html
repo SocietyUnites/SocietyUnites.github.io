@@ -81,11 +81,33 @@
 <!-- Start content section -->
     <div class="w3-center dr1-su-big-space">
   <h1>Community Standards</h1>
-    <p1>This page shows our Community Standards for Mystic Games LLC, and its groups, that are and may not be limited to: "Society Unites, etc."</p1>
+    <p>This page shows our Community Standards for Mystic Games LLC, and its groups, that are and may not be limited to: "Society Unites, etc."</p1>
   </div>
   <!-- STARRT -->
   <div>
     <p>We’ve created these Community Standards to help ensure that everyone feels safe and welcome in our shared adventure. These Standards apply to all of your actions on Society Unites and with other Users.</p>
   </div>
+
+  <button onclick="myFunction('Safety')" class="w3-button w3-block w3-left-align">
+    S</button>
+    
+    <div id="Safety" class="w3-container w3-hide">
+      <p>Some text...</p>
+      <div>
+        <p>Some more text...</p>
+      </div>
+    </div>
+    
+    <script>
+    function myFunction(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
 </body>
 </html>
